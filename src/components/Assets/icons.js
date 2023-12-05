@@ -5,7 +5,6 @@ export const TelegramIcon = () => (
 
 )
 
-
 export const ViberIcon = () => (
     <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M10.7742 2C10.4891 2 10.2581 2.21952 10.2581 2.49032C10.2581 2.76112 10.4891 2.98065 10.7742 2.98065C14.1948 2.98065 16.9677 5.61494 16.9677 8.86452C16.9677 9.13531 17.1988 9.35484 17.4839 9.35484C17.7689 9.35484 18 9.13531 18 8.86452C18 5.07335 14.7649 2 10.7742 2Z" fill="#E4E5EA"/>
@@ -24,3 +23,65 @@ export const WhatsAppIcon = () => (
 
 
 )
+
+export const RedBallIcon = () => (
+    <svg width="100%" height="100%" viewBox="0 0 117 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_bd_0_13)">
+    <circle cx="55.5" cy="52.5" r="41.5" fill="url(#paint0_radial_0_13)" fill-opacity="0.8" shape-rendering="crispEdges"/>
+    </g>
+    <defs>
+    <filter id="filter0_bd_0_13" x="0" y="0" width="117" height="117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_13"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feMorphology radius="10" operator="erode" in="SourceAlpha" result="effect2_dropShadow_0_13"/>
+    <feOffset dx="3" dy="6"/>
+    <feGaussianBlur stdDeviation="13.5"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.87451 0 0 0 0 0.490196 0 0 0 0 0.490196 0 0 0 0.25 0"/>
+    <feBlend mode="normal" in2="effect1_backgroundBlur_0_13" result="effect2_dropShadow_0_13"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_0_13" result="shape"/>
+    </filter>
+    <radialGradient id="paint0_radial_0_13" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(36.6175 32.995) rotate(51.0412) scale(68.3129)">
+    <stop stop-color="#FFD0D0" stop-opacity="0.67"/>
+    <stop offset="0.596678" stop-color="#D45D5D" stop-opacity="0.33"/>
+    <stop offset="0.785899" stop-color="#A73131" stop-opacity="0.31"/>
+    <stop offset="1" stop-color="#821919" stop-opacity="0.31"/>
+    </radialGradient>
+    </defs>
+    </svg>
+)
+
+export const PurpleBallIcon = () => (
+<svg width="94" height="81" viewBox="0 0 94 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bdf_0_14)">
+<circle cx="44" cy="28" r="30" fill="url(#paint0_radial_0_14)" fill-opacity="0.8" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_bdf_0_14" x="0" y="-13" width="94" height="94" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_14"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="10" operator="erode" in="SourceAlpha" result="effect2_dropShadow_0_14"/>
+<feOffset dx="3" dy="6"/>
+<feGaussianBlur stdDeviation="13.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.694118 0 0 0 0 0.462745 0 0 0 0 0.85098 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_0_14" result="effect2_dropShadow_0_14"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_0_14" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect3_foregroundBlur_0_14"/>
+</filter>
+<radialGradient id="paint0_radial_0_14" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30.35 13.9) rotate(51.0412) scale(49.3828)">
+<stop stop-color="#ECD0FF" stop-opacity="0.8"/>
+<stop offset="0.596678" stop-color="#A15DCF" stop-opacity="0.3"/>
+<stop offset="0.785899" stop-color="#7631A4" stop-opacity="0.26"/>
+<stop offset="1" stop-color="#561880" stop-opacity="0.29"/>
+</radialGradient>
+</defs>
+</svg>
+
+
+)
+

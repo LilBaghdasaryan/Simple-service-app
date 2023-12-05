@@ -1,4 +1,5 @@
 .container {
+	position: relative;
 	min-height: 100vh;
 	height: auto;
 	overflow: hidden;
@@ -13,6 +14,32 @@
     'main'
     'footer';
   	}
+
+	.conteiner-left-effect {
+		position: absolute;
+		top: 20%;
+		left: 0;
+		width: 311px;
+		height: 311px;
+		flex-shrink: 0;
+		border-radius: 311px;
+		opacity: 0.5;
+		background: #961A1A;
+		filter: blur(196px);
+	}
+
+	.conteiner-top-effect {
+		position: absolute;
+		top: -14%;
+    	left: 45%;
+		border-radius: 259px;
+		opacity: 0.5;
+		background: #833AB4;
+		width: 259px;
+		height: 259px;
+		flex-shrink: 0;
+		filter: blur(196px);
+	}
 
   .container > header {
 	grid-area: header;
@@ -147,6 +174,7 @@ footer {
 	height: auto;
     margin-bottom: 50px;
 	gap: 10px;
+	z-index: 1;
   }
 
   .footer__menu {
@@ -174,6 +202,30 @@ footer {
 
   .footer-contacts {
 		text-align: end;
+  }
+
+  .red-ball, .red-ball-small, .purple-ball {
+	position: absolute;
+	z-index: 0;
+  }
+
+  .red-ball {
+	top: 10%;
+    left: 41%;
+	width: 83px;
+	height: 83px;
+  }
+
+  .red-ball-small {
+	top: 54%;
+    left: 62%;
+	width: 28px;
+	height: 28px;
+  }
+
+  .purple-ball {
+    top: 0%;
+    left: 63%;
   }
 
   @media screen and (max-width: 1200px) {
